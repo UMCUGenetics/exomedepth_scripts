@@ -52,6 +52,7 @@ for (i in 1:nrow(all.exons@CNV.calls)) {
       main = paste(my.current.samplename,' (',event.chr,':',event.start,'-',event.end,')',sep=""),
       cex.lab = 0.8,
       with.gene = TRUE)
+      segments(event.start,1,event.end,1,col="red",lwd=8)
     dev.off()
 }
   
