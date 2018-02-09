@@ -145,7 +145,7 @@ setMethod("plot", "ExomeDepth", function(x, sequence, xlim, ylim = NULL, count.t
              y = ifelse (lev == 0.6, 0.7, 0.3),
              labels = x$short.name[1],
              pos = pos,
-             cex = 0.5)
+             cex = 0.8)
         
         
         for (i in 1:nrow(x)) {
