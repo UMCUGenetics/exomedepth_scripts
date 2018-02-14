@@ -47,7 +47,7 @@ my $header = <<"END_HEADER";
 ##INFO=<ID=BF,Number=1,Type=Integer,Description="Exomdepth: BF (Bayes Factor) value. log10 value of the likelihood ratio">
 ##INFO=<ID=END,Number=1,Type=Integer,Description="End position of the variant described in this record">
 ##INFO=<ID=SVLEN,Number=1,Type=Integer,Description="Number of reference positions spanned by this CNV">
-##INFO=<ID=RATIO,Number=1,Type=Integer,Description="ratio of observed reads over expected. This is used to determine genotype for deletions: homozygous deletions have ratio < $GT_ratio">
+##INFO=<ID=RATIO,Number=1,Type=Float,Description="ratio of observed reads over expected. This is used to determine genotype for deletions: homozygous deletions have ratio < $GT_ratio">
 END_HEADER
 
 my $file = $ARGV[0];
