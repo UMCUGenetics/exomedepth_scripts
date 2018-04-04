@@ -41,6 +41,7 @@ my $header = <<"END_HEADER";
 ##ALT=<ID=CNV,Description="Copy number variable region">
 ##FILTER=<ID=q10,Description="Quality below 10">
 ##FILTER=<ID=L10kb,Description="Length shorter than 10kb">
+##FORMAT=<ID=GT,Number=1,Type=String, Description="inferred Genotype">
 ##INFO=<ID=SVTYPE,Number=1,Type=String,Description="Type of structural variant">
 ##INFO=<ID=END,Number=1,Type=Integer,Description="End position of the variant described in this record">
 ##INFO=<ID=NEXONS,Number=1,Type=Integer,Description="Exomdepth: number of exons included in this event">
